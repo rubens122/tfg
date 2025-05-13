@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textoNombrePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Playlist"
+        android:textColor="@color/colorTexto"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/textoVisibilidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pública"
+        android:textColor="@color/colorGris"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textoCreador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Por: usuario@correo.com"
+        android:textColor="@color/colorGris"
+        android:textSize="14sp" />
+</LinearLayout>

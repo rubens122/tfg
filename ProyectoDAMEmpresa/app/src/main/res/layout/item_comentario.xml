@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/usuarioComentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorTexto"
+        android:text="Usuario" />
+
+    <TextView
+        android:id="@+id/textoComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGris"
+        android:text="Este es un comentario sobre la playlist" />
+
+    <TextView
+        android:id="@+id/fechaComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGris"
+        android:textSize="12sp"
+        android:text="Fecha del comentario" />
+
+</LinearLayout>

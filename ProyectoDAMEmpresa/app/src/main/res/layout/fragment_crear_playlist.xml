@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFondo"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/campoNombrePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Playlist"
+        android:textColorHint="@color/colorGris"
+        android:textColor="@color/colorTexto"
+        android:layout_marginBottom="16dp" />
+
+    <Switch
+        android:id="@+id/switchPublica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pública"
+        android:textColor="@color/colorTexto"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/botonGuardarPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Playlist"
+        android:backgroundTint="@color/colorVerdeSpotify"
+        android:textColor="@color/colorTexto"
+        android:textStyle="bold"/>
+</LinearLayout>

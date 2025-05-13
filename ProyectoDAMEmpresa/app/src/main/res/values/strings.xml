@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProyectoDAMEmpresa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_biblioteca">Tu Biblioteca</string>
+    <string name="canciones_favoritas">Canciones Favoritas</string>
+    <string name="mis_playlists">Mis Playlists</string>
+    <string name="crear_playlist">Crear Playlist</string>
+</resources>

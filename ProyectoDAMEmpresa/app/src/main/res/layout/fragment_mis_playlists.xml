@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorFondo">
+
+    <TextView
+        android:id="@+id/textoTituloPlaylists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mis Playlists"
+        android:textColor="@color/colorTexto"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- RecyclerView de Playlists -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPlaylists"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Botón para volver -->
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorVerdeSpotify"
+        android:textColor="@color/colorTexto"
+        android:layout_marginTop="8dp" />
+
+    <!-- RecyclerView de Canciones (Oculto por defecto) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCancionesPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+</LinearLayout>
